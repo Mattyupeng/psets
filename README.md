@@ -4,7 +4,7 @@ This is your personal repository for Problem Sets (assuming you correctly made a
 
 If you are reading this, the name of the repository should be psets-YourGithubID. If that's what you see, you should already be logged into your Github account and have your own private repository (this one) for your homeworks. You're good to read on!
 
-If you don't see your Github ID at the end of the repository name, you need to follow [this link to GitHub Classroom](https://classroom.github.com/TBD) to create your own private repository.
+If you don't see your Github ID at the end of the repository name, you need to follow [this link to GitHub Classroom](https://classroom.github.com/a/mJLGcNEP) to create your own private repository.
 
 If you don't know what any of this means, come to office hours or send us a message on Slack!
 

@@ -1,6 +1,13 @@
 // #TODO# The Code You Will Need To Edit
 
 
+/***************************************
+*         AI Tool Disclosure:          *
+****************************************/
+//
+// #TODO# 
+//
+
 #include "moves.h"
 #include "helpers.h"
 

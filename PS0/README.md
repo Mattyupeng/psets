@@ -55,6 +55,8 @@ All functions you need to implement are in `util.h` and that is the only file yo
 + `resolve_collision`
 + `check_resolve_all_collision`
 
+**Finally don't forget to fill in the AI Tool Disclosure at the top of `util.h`!**
+
 ### Submission
 To test and submit your code in the autograder, whether you are working locally or in the cloud, copy your functions into the `util.h` file and submit it to the assignment on [Gradescope](https://www.gradescope.com/courses/693842). Remember that you have INFINITE submissions so we suggested submitting and testing your code early and often. We will use the last submission before the deadline as your final score!
 

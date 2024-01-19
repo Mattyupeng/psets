@@ -12,7 +12,7 @@ If you don't know what any of this means, come to office hours or send us a mess
 This repository is a copy of a "seed" repository maintained by the course staff. Throughout this semester, we will add assignments to the seed repository, and you will be responsible for copying them into your local repository (using "fetch" and "merge", in git-speak). To get the repository set up for the semester please run:
 ```
 git branch -M main
-git remote add seed_repo https://github.com/COMS-BC3159-SP23/psets.git
+git remote add seed_repo https://github.com/COMS-BC3159-SP24/psets.git
 ```
 These commands (0) set the main branch name and (1) tell your local git repository where the seed repo is (and calls it "seed_repo"). You are now ready for the rest of the semester.
 

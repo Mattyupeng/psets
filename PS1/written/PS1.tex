@@ -119,8 +119,8 @@ void sum_even_vector(int *array) {
 Assume that when you access memory from RAM that you load in 64 bytes of memory into the cache. Also assume that loading from RAM to cache and then into registers takes a total of 26ns. Future loads of this data from the cache into registers takes only 2ns. Finally assume that all computations and loads of data back into cache and registers are free (aka it takes 0ns). For the following code above how long would it take to load data into registers during the runtime of the function? Please write your answer as a function of $N$.
 \begin{enumerate}[label=(\alph*)]
     \item First, consider the case where this program is run in one thread.
-    \item Second, consider the case where the for loop in lines 3-5 is parallelized across 4 threads evenly distributing the work. Ignore thread launch or synchronizations overheads. Can you describe the least efficient memory access pattern for the four threads? How long would it take? Is this faster or slower than the serial case?
-    \item Conversely in the 4 thread case, can you describe the most efficient memory access pattern? How long would it take? Is this faster or slower than the serial case?
+    \item Second, consider the case where the for loop in lines 3-5 is parallelized across 4 blocks on the GPU each with one thread evenly distributing the work. Ignore thread launch or synchronizations overheads. Can you describe the least efficient memory access pattern for the four threads? How long would it take? Is this faster or slower than the serial case?
+    \item Conversely in the multi-threaded case, can you describe the most efficient memory access pattern? How long would it take? Is this faster or slower than the serial case?
 \end{enumerate}
 \textit{Hint: integers are 4 bytes in size!}
 
